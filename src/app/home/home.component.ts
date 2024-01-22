@@ -15,6 +15,10 @@ import { CommonModule } from "@angular/common";
       </form>
     </section>
     <section class="results">
+      <!--
+        When adding a property binding to a component tag, we use the [attribute] = "value" syntax to notify Angular
+        that the assigned value should be treated as a property from the component class and not a string value.
+      -->
     <app-housing-location [housingLocation]="housingLocation"></app-housing-location>
     </section>
   `,
