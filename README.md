@@ -3,4 +3,8 @@
 
 
 # How to explore this repository
-  Every step I made from Angular webpage Quick Start tutorial is located in a single branch, in order to keep teh framework's functionalities tracked, without overwritting them.
+  Main branch shows the complete app, after all functionalities and components were made.
+  You can take a look of every step I made in all branches. This, to keep the workflow tracked in an easier way.
+
+# Json Server
+  To create HTTPS requests this module was added, run 'npm run json-server' to obtain a server for the data to be accesible for the app.
